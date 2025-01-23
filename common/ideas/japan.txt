@@ -22,17 +22,6 @@ ideas = {
 			}
 		}
 
-		JAP_butter_mils = {
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				production_speed_arms_factory_factor = 0.35
-				industrial_capacity_factory = -0.4
-				production_factory_max_efficiency_factor = -0.1
-			}
-		}
 
 		JAP_public_awareness_of_war_ns = {
 			allowed = {

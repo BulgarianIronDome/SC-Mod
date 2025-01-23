@@ -1,5 +1,44 @@
 ideas = {
 	country = {
+		JAP_butter_mils = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.35
+				industrial_capacity_factory = -0.4
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+		SOV_asia_victory = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				surrender_limit = 0.1
+			}
+		}
+		USA_asia_victory = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		allied_asia_victory = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_speed_factor = 3
+			}
+		}
 		double_land_cheater_idea = {
 			allowed = {
 				always = no

@@ -551,4 +551,82 @@ on_actions = {
             }
         }
     }
+
+	on_capitulation_immediate = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = JAP }
+				}
+				SOV = {
+					add_ideas = {
+						SOV_asia_victory
+					}
+				}
+				USA = {
+					add_ideas = {
+						USA_asia_victory
+					}
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				CAN = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				MEX = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				BRA = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				ENG = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				FRA = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				SAF = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				RAJ = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				AUS = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+				NZL = {
+					add_timed_idea = {
+						idea = allied_asia_victory
+						days = 40
+					}
+				}
+			}
+		}
+	}
 }
