@@ -758,17 +758,17 @@ spanish_production = {
 	}
 }
 brazil_nerf = {
-	name = "Brazil Eco & Rubber Nerf"
+	name = "Brazil Rubber Nerf"
 	group = "BHVM game rules"
 	icon = "GFX_decision_generic_industry"
 	option = {
 		name = off
 		text = "Brazil isn't nerfed"
 	}
-	option = {
+	default = {
 		name = on
 		text = "Brazil is nerfed"
-		desc = "Brazil right side eco is nerfed and rubber is reduced by ~66%"
+		desc = "Brazil right side eco is nerfed and rubber is reduced by ~50%"
 	}
 }
 no_market = {

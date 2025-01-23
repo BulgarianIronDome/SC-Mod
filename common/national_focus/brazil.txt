@@ -238,23 +238,9 @@ focus_tree = {
 			IF = {
 				limit = { has_dynamic_modifier = { modifier = BRA_estado_novo_modifier } }
 				custom_effect_tooltip = BRA_modify_estado_novo_ns_intro
-				IF = {
-					limit = {
-						has_game_rule = {
-							rule = brazil_nerf
-							option = off
-						}
-					}
-					add_to_variable = {
-						BRA_estado_novo_production_speed_arms_factory_factor = 0.05
-						tooltip = production_speed_arms_factory_factor_tt
-					}
-				}
-				ELSE = {
-					add_to_variable = {
-						BRA_estado_novo_production_speed_arms_factory_factor = 0.02
-						tooltip = production_speed_arms_factory_factor_tt
-					}
+				add_to_variable = {
+					BRA_estado_novo_production_speed_arms_factory_factor = 0.05
+					tooltip = production_speed_arms_factory_factor_tt
 				}
 				add_to_variable = {
 					BRA_estado_novo_production_speed_dockyard_factor = 0.05
@@ -267,23 +253,9 @@ focus_tree = {
 			}
 			ELSE = {
 				custom_effect_tooltip = BRA_modify_estado_moderno_ns_intro
-				IF = {
-					limit = {
-						has_game_rule = {
-							rule = brazil_nerf
-							option = off
-						}
-					}
-					add_to_variable = {
-						BRA_estado_moderno_production_speed_arms_factory_factor = 0.05
-						#tooltip = production_speed_arms_factory_factor_tt
-					}
-				}
-				ELSE = {
-					add_to_variable = {
-						BRA_estado_moderno_production_speed_arms_factory_factor = 0.02
-						#tooltip = production_speed_arms_factory_factor_tt
-					}
+				add_to_variable = {
+					BRA_estado_moderno_production_speed_arms_factory_factor = 0.05
+					#tooltip = production_speed_arms_factory_factor_tt
 				}
 				add_to_variable = {
 					BRA_estado_moderno_production_speed_dockyard_factor = 0.05
@@ -319,23 +291,9 @@ focus_tree = {
 			IF = {
 				limit = { has_dynamic_modifier = { modifier = BRA_estado_novo_modifier } }
 				custom_effect_tooltip = BRA_modify_estado_novo_ns_intro
-				IF = {
-					limit = {
-						has_game_rule = {
-							rule = brazil_nerf
-							option = off
-						}
-					}
-					add_to_variable = {
-						BRA_estado_novo_production_factory_max_efficiency_factor = 0.05
-						tooltip = production_factory_max_efficiency_factor_tt
-					}
-				}
-				ELSE = {
-					add_to_variable = {
-						BRA_estado_novo_production_factory_max_efficiency_factor = 0.02
-						tooltip = production_factory_max_efficiency_factor_tt
-					}
+				add_to_variable = {
+					BRA_estado_novo_production_factory_max_efficiency_factor = 0.05
+					tooltip = production_factory_max_efficiency_factor_tt
 				}
 				add_to_variable = {
 					BRA_estado_novo_consumer_goods_factor = -0.05
@@ -348,23 +306,9 @@ focus_tree = {
 			}
 			ELSE = {
 				custom_effect_tooltip = BRA_modify_estado_moderno_ns_intro
-				IF = {
-					limit = {
-						has_game_rule = {
-							rule = brazil_nerf
-							option = off
-						}
-					}
-					add_to_variable = {
-						BRA_estado_novo_production_factory_max_efficiency_factor = 0.05
-						tooltip = production_factory_max_efficiency_factor_tt
-					}
-				}
-				ELSE = {
-					add_to_variable = {
-						BRA_estado_novo_production_factory_max_efficiency_factor = 0.02
-						tooltip = production_factory_max_efficiency_factor_tt
-					}
+				add_to_variable = {
+					BRA_estado_novo_production_factory_max_efficiency_factor = 0.05
+					tooltip = production_factory_max_efficiency_factor_tt
 				}
 				add_to_variable = {
 					BRA_estado_moderno_consumer_goods_factor = -0.05
@@ -666,29 +610,9 @@ focus_tree = {
 
 
 		completion_reward = {
-			IF = {
-				limit = {
-					has_game_rule = {
-						rule = brazil_nerf
-						option = off
-					}
-				}
-				add_timed_idea = {
-					idea = BRA_army_reward
-					days = 730
-				}
-			}
-			IF = {
-				limit = {
-					has_game_rule = {
-						rule = brazil_nerf
-						option = on
-					}
-				}
-				add_timed_idea = {
-					idea = BRA_army_reward_nerfed
-					days = 730
-				}
+			add_timed_idea = {
+				idea = BRA_army_reward
+				days = 730
 			}
 		}
 	}
@@ -1319,7 +1243,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = rubber
-						amount = 5
+						amount = 10
 					}
 				}
 				add_to_variable = {

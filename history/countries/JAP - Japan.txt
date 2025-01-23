@@ -14,13 +14,13 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
+	
 	# National Spirits
+	JAP_butter_mils
 	state_shintoism
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
 	JAP_militarism
-
 }
 
 IF = {

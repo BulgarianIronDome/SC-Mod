@@ -223,36 +223,18 @@ on_actions = {
 				}
 				JAP = {
 					add_corps_commander_role = {
-						character = JAP_tomoyuki_yamashita
-						traits={ commando brilliant_strategist politically_connected trickster trait_engineer organizer infantry_leader trickster }
+						character = JAP_toshizo_nishio
+						traits = {  commando organizer infantry_leader trait_engineer infantry_expert naval_invader commando trickster jungle_rat }
 						skill=6
-						attack_skill=6
-						defense_skill=6
-						planning_skill=4
-						logistics_skill=4
-					}
-					add_corps_commander_role = {
-						character = JAP_shizuichi_tanaka
-						traits={ career_officer infantry_officer organizer infantry_leader trickster }
-						skill=6
-						attack_skill=6
-						defense_skill=5
+						attack_skill=4
+						defense_skill=4
 						planning_skill=4
 						logistics_skill=5
 					}
 					add_corps_commander_role = {
-						character = JAP_toshizo_nishio
-						traits = {  commando organizer infantry_leader trait_engineer infantry_expert naval_invader commando trickster jungle_rat }
-						skill=8
-						attack_skill=6
-						defense_skill=5
-						planning_skill=4
-						logistics_skill=6
-					}
-					add_corps_commander_role = {
 						character = JAP_seishiro_itagaki
 						traits={ inflexible_strategist trait_reckless JAP_samurai_lineage organizer infantry_leader trickster  }
-						skill=4
+						skill=6
 						attack_skill=4
 						defense_skill=2
 						planning_skill=4
@@ -261,19 +243,10 @@ on_actions = {
 					add_corps_commander_role = {
 						character = JAP_keisuke_fujie
 						traits={ career_officer politically_connected trait_engineer organizer infantry_leader trickster trait_mountaineer }
-						skill=6
-						attack_skill=6
-						defense_skill=5
+						skill=5
+						attack_skill=5
+						defense_skill=2
 						planning_skill=4
-						logistics_skill=5
-					}
-					add_corps_commander_role = {
-						character = JAP_hitoshi_imamura
-						traits = {  commando naval_invader infantry_leader infantry_expert trait_engineer hill_fighter ranger trait_mountaineer }
-						skill=7
-						attack_skill=4
-						defense_skill=6
-						planning_skill=2
 						logistics_skill=4
 					}
 				}
@@ -556,36 +529,18 @@ on_actions = {
 				}
 				JAP = {
 					add_corps_commander_role = {
-						character = JAP_tomoyuki_yamashita
-						traits={ commando brilliant_strategist politically_connected trickster trait_engineer organizer infantry_leader trickster }
+						character = JAP_toshizo_nishio
+						traits = {  commando organizer infantry_leader trait_engineer infantry_expert naval_invader commando trickster jungle_rat }
 						skill=6
-						attack_skill=6
-						defense_skill=6
-						planning_skill=4
-						logistics_skill=4
-					}
-					add_corps_commander_role = {
-						character = JAP_shizuichi_tanaka
-						traits={ career_officer infantry_officer organizer infantry_leader trickster }
-						skill=6
-						attack_skill=6
-						defense_skill=5
+						attack_skill=4
+						defense_skill=4
 						planning_skill=4
 						logistics_skill=5
 					}
 					add_corps_commander_role = {
-						character = JAP_toshizo_nishio
-						traits = {  commando organizer infantry_leader trait_engineer infantry_expert naval_invader commando trickster jungle_rat }
-						skill=8
-						attack_skill=6
-						defense_skill=5
-						planning_skill=4
-						logistics_skill=6
-					}
-					add_corps_commander_role = {
 						character = JAP_seishiro_itagaki
 						traits={ inflexible_strategist trait_reckless JAP_samurai_lineage organizer infantry_leader trickster  }
-						skill=4
+						skill=6
 						attack_skill=4
 						defense_skill=2
 						planning_skill=4
@@ -594,19 +549,10 @@ on_actions = {
 					add_corps_commander_role = {
 						character = JAP_keisuke_fujie
 						traits={ career_officer politically_connected trait_engineer organizer infantry_leader trickster trait_mountaineer }
-						skill=6
-						attack_skill=6
-						defense_skill=5
+						skill=5
+						attack_skill=5
+						defense_skill=2
 						planning_skill=4
-						logistics_skill=5
-					}
-					add_corps_commander_role = {
-						character = JAP_hitoshi_imamura
-						traits = {  commando naval_invader infantry_leader infantry_expert trait_engineer hill_fighter ranger trait_mountaineer }
-						skill=7
-						attack_skill=4
-						defense_skill=6
-						planning_skill=2
 						logistics_skill=4
 					}
 				}
